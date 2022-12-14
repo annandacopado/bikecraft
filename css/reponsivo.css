@@ -47,6 +47,21 @@
   .tecnologia a {
     margin-bottom: 60px;
   }
+  .parceiros {
+    padding-bottom: 60px;
+  }
+  .parceiros h2 {
+    margin-bottom: 20xp;
+  }
+  .lista-parceiros {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lista-parceiros li:nth-child(n + 3) {
+    border-top: 2px solid var(--cor-2);
+  }
+  .lista-parceiros li:nth-child(odd) {
+    border-left: none;
+  }
 }
 @media (max-width: 600px) {
   .header-menu {

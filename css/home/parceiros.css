@@ -1,0 +1,27 @@
+.parceiros {
+  padding-top: 80px;
+  padding-bottom: 120pxs;
+}
+.parceiros h2 {
+  padding-bottom: 48px;
+}
+.lista-parceiros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.lista-parceiros li {
+  display: flex;
+  padding: 32px;
+  border-left: 2px solid var(--cor-2);
+  border-bottom: 2px solid var(--cor-2);
+}
+.parceiros img {
+  margin: auto;
+}
+.lista-parceiros li:first-child,
+.lista-parceiros li:nth-child(5) {
+  border-left: none;
+}
+.lista-parceiros li:nth-child(n + 5) {
+  border-top: 2px solid var(--cor-2);
+}
