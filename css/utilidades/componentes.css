@@ -1,0 +1,16 @@
+.btn-primary {
+  display: inline-block;
+  background-color: #f8ac10;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #332200;
+  font-size: 18px;
+  padding: 16px 48px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.btn-primary:hover {
+  background: linear-gradient(#ffb06d, #e59317);
+  transition: 0.3s;
+}

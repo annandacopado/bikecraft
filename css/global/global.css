@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 3000px;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+h1 {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.img-hero {
+  width: 100%;
+  display: block;
+}
