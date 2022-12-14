@@ -24,6 +24,29 @@
   .hero-conteudo {
     padding-bottom: 0px;
   }
+
+  .lista-bicicletas {
+    padding-bottom: 60px;
+  }
+  .lista-bicicletas ul {
+    gap: 20px;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-img {
+    display: none;
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
 }
 @media (max-width: 600px) {
   .header-menu {

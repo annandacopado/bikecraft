@@ -18,7 +18,18 @@ h1 {
   margin: 0px;
   list-style: none;
 }
+
+.logo {
+  width: fit-content;
+}
 .img-hero {
   width: 100%;
   display: block;
+}
+.biciletas-listas-items img {
+  display: block;
+  width: 100%;
+}
+[src$=".jpg"] {
+  border-radius: 4px;
 }
