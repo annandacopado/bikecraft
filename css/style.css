@@ -1,4 +1,5 @@
 @import url(./global/header.css);
+@import url(./reponsivo.css);
 @import url(./global/global.css);
 @import url(./home/hero.css);
 @import url(./utilidades/componentes.css);
@@ -7,3 +8,6 @@
 @import url(./bicicletas/bicicletas-lista.css);
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
+@import url(./home/depoimentos.css);
+@import url(./seguros/seguros.css);
+@import url(./global/footer.css);
